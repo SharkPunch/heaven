@@ -1,0 +1,6 @@
+rvm:
+  - 2.2.3
+script:
+  - script/cibuild
+services:
+  - redis-server
